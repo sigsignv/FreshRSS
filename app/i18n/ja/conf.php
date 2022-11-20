@@ -68,20 +68,20 @@ return array(
 	),
 	'logs' => array(
 		'loglist' => array(
-			'level' => 'ログのレベル',
-			'message' => 'ログのメッセージ',
-			'timestamp' => 'タイムスタンプ',
+			'level' => 'ログレベル',
+			'message' => 'ログメッセージ',
+			'timestamp' => '時刻',
 		),
 		'pagination' => array(
 			'first' => '先頭',
 			'last' => '最後',
-			'next' => 'つぎへ',
+			'next' => '次へ',
 			'previous' => '前へ',
 		),
 	),
 	'profile' => array(
-		'_' => 'プロフィール',
-		'api' => 'API管理',
+		'_' => 'プロフィール管理',
+		'api' => 'API 管理',
 		'delete' => array(
 			'_' => 'アカウント消去',
 			'warn' => 'あなたのアカウントとそれに関連したデータが消去されます。',
@@ -224,7 +224,7 @@ return array(
 		'blogotext' => 'Blogotext',	// IGNORE
 		'deprecated' => 'このサービスは非推奨でFreshRSSから削除される予定です<a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">future release</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
-		'email' => 'Eメール',
+		'email' => 'メール',
 		'facebook' => 'Facebook',	// IGNORE
 		'more_information' => 'もっと多くの情報',
 		'print' => '印刷',	// IGNORE

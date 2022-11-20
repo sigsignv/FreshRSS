@@ -30,8 +30,8 @@ return array(
 			'ok' => 'キャッシュディレクトリのパーミッションは正しく設定されています。',
 		),
 		'categories' => array(
-			'nok' => 'カテゴリテーブルが不適切な設定をされています。',
-			'ok' => 'カテゴリテーブルは正しく設定されています。',
+			'nok' => 'カテゴリテーブルが適切に設定されていません。',
+			'ok' => 'カテゴリテーブルは正常です。',
 		),
 		'connection' => array(
 			'nok' => 'データベースへの接続ができませんでした。',
@@ -42,8 +42,8 @@ return array(
 			'ok' => '必要とされている文字タイプを確認するライブラリが見つかりました。(ctype)',
 		),
 		'curl' => array(
-			'nok' => 'cURLライブラリが見つかりませんでした(php-curl package)',
-			'ok' => 'cURLライブラリが見つかりました。',
+			'nok' => 'cURL ライブラリ (php-curl package) が見つかりません。',
+			'ok' => 'cURL ライブラリが見つかりました。',
 		),
 		'data' => array(
 			'nok' => '<em>./data</em>ディレクトリのパーミッションを確認してください。 HTTP serverは編集パーミッションを必要としています。',
@@ -112,14 +112,14 @@ return array(
 	),
 	'extensions' => array(
 		'author' => '作者',
-		'community' => 'コミュニティ製の拡張機能',
+		'community' => '利用可能なコミュニティ製の拡張機能',
 		'description' => '説明',
 		'disabled' => '無効',
 		'empty_list' => 'インストールされている拡張機能はありません',
 		'enabled' => '有効',
 		'latest' => 'インストール済み',
 		'name' => '名前',
-		'no_configure_view' => 'この拡張機能は設定できません.',
+		'no_configure_view' => 'この拡張機能は設定できません。',
 		'system' => array(
 			'_' => 'システムの拡張機能',
 			'no_rights' => 'システムの拡張機能 (あなたは権限を所持していません',

@@ -40,11 +40,11 @@ return array(
 		),
 	),
 	'password' => array(
-		'invalid' => 'このパスワードは無効です',
+		'invalid' => 'このパスワードは無効です。',
 	),
 	'tos' => array(
 		'feedback' => array(
-			'invalid' => 'あなたが使うには利用規約に同意する必要があります。',
+			'invalid' => '登録するためには利用規約に同意する必要があります。',
 		),
 	),
 	'username' => array(
