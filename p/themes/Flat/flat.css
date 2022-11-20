@@ -5,6 +5,10 @@
 html, body {
 	background: #fafafa;
 	color: black;
+	font-family: "OpenSans", "Cantarell", "Helvetica", "Arial", sans-serif;
+}
+
+html:lang(zh-cn) {
 	font-family: "OpenSans", "Cantarell", "Helvetica", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
