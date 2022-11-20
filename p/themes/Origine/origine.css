@@ -82,11 +82,11 @@ html, body {
 	font-family: "OpenSans", "Cantarell", "Helvetica", "Arial", sans-serif;
 }
 
-html:lang(ja) {
+body:lang(ja) {
 	font-family: "OpenSans", "Cantarell", "Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
 }
 
-html:lang(zh-cn) {
+body:lang(zh-cn) {
 	font-family: "OpenSans", "Cantarell", "Helvetica", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
