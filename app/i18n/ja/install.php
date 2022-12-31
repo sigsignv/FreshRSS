@@ -16,7 +16,7 @@ return array(
 		'fix_errors_before' => '次のステップへ移る前にエラーを修正してください。',
 		'keep_install' => '前の設定を保持する',
 		'next_step' => '次のステップへ進む',
-		'reinstall' => 'FreshRSSを再インストールする',
+		'reinstall' => 'FreshRSS を再インストールする',
 	),
 	'auth' => array(
 		'form' => 'Webフォーム (Javascriptが必要です)',
@@ -30,7 +30,7 @@ return array(
 		'_' => 'データベース',
 		'conf' => array(
 			'_' => 'データベース設定',
-			'ko' => 'あなたのデータベース設定を確認します。',
+			'ko' => 'データベース設定を確認してください。',
 			'ok' => 'データベース設定は保存されました。',
 		),
 		'host' => 'ホスト',
@@ -118,8 +118,8 @@ return array(
 	),
 	'language' => array(
 		'_' => '言語',
-		'choose' => 'FreshRSSで使う言語を選んでください',
-		'defined' => '言語の設定ができました。',
+		'choose' => 'FreshRSS で使う言語を選択してください',
+		'defined' => '言語が設定されました。',
 	),
 	'missing_applied_migrations' => '何かが誤っています; 空のファイルを手動で作ることができます <em>%s</em>',
 	'ok' => 'インストール作業は成功しました。',
