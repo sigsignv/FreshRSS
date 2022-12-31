@@ -146,17 +146,17 @@ return array(
 				'none' => 'なし',
 			),
 			'feed_name' => array(
-				'above_title' => '上のタイトル/タグ',
-				'none' => 'なし',
+				'above_title' => 'タイトル/タグの上',
+				'none' => '表示しない',
 				'with_authors' => '著者と日付の行',
 			),
 			'feed_title' => 'フィードのタイトル',
 			'tags' => array(
 				'_' => 'タグ',
-				'both' => 'ヘッダーとフッター',
+				'both' => 'ヘッダー/フッター',
 				'footer' => 'フッター',
 				'header' => 'ヘッダー',
-				'none' => 'なし',
+				'none' => '表示しない',
 			),
 			'tags_max' => array(
 				'_' => '表示されるタグの数の上限',
