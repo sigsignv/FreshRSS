@@ -195,7 +195,7 @@ return array(
 		'blogotext' => 'Blogotext',	// IGNORE
 		'clipboard' => 'クリップボード',
 		'diaspora' => 'Diaspora*',	// IGNORE
-		'email' => 'Eメール',
+		'email' => 'メール',
 		'facebook' => 'Facebook',	// IGNORE
 		'gnusocial' => 'GNU social',	// IGNORE
 		'jdh' => 'Journal du hacker',	// IGNORE

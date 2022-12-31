@@ -13,8 +13,8 @@
 return array(
 	'email' => array(
 		'feedback' => array(
-			'invalid' => 'このEメールアドレスは無効です。',
-			'required' => 'Eメールアドレスは必要です。',
+			'invalid' => 'このメールアドレスは無効です。',
+			'required' => 'メールアドレスは必須です。',
 		),
 		'validation' => array(
 			'change_email' => 'Eメールアドレスは <a href="%s">プロフィールページで変更できます</a>.',

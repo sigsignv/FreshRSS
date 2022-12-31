@@ -57,7 +57,7 @@ return array(
 			'portrait' => 'ポートレート',
 			'square' => '四角',
 		),
-		'title' => 'ディスプレイ',
+		'title' => '表示',
 		'width' => array(
 			'content' => 'コンテンツ幅',
 			'large' => '広い',
@@ -238,8 +238,8 @@ return array(
 		'wallabag' => 'wallabag',	// IGNORE
 	),
 	'shortcut' => array(
-		'_' => 'ショートカット',
-		'article_action' => '記事のアクション',
+		'_' => 'キーボードショートカット',
+		'article_action' => '記事操作',
 		'auto_share' => '共有',
 		'auto_share_help' => '共有方法が一つしか設定されていないときにはそれが使われます。そうではなければ、番号によって共有方法にアクセスできます。',
 		'close_dropdown' => 'メニューを閉じる',
@@ -275,7 +275,7 @@ return array(
 		'views' => 'ビュー',
 	),
 	'user' => array(
-		'articles_and_size' => '%s 記事 (%s)',
+		'articles_and_size' => '%s 件の記事 (%s)',
 		'current' => '現在のユーザー',
 		'is_admin' => 'は管理者です',
 		'users' => 'ユーザー',
