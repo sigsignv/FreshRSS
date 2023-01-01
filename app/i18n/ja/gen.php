@@ -224,7 +224,7 @@ return array(
 		'by_author' => '著者:',
 		'by_default' => 'デフォルト',
 		'damn' => '終了!',
-		'default_category' => 'カテゴリーに登録されていない',
+		'default_category' => '未分類',
 		'no' => 'NO',
 		'not_applicable' => '利用不可能',
 		'ok' => 'OK!',
