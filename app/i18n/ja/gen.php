@@ -119,10 +119,10 @@ return array(
 		'wed' => '水',
 		'yesterday' => '昨日',
 	),
-	'dir' => 'ディレクトリ',
+	'dir' => 'ltr',
 	'freshrss' => array(
 		'_' => 'FreshRSS',	// IGNORE
-		'about' => 'FreshRSSについて',
+		'about' => 'FreshRSS について',
 	),
 	'js' => array(
 		'category_empty' => '空白のカテゴリ',
@@ -161,7 +161,7 @@ return array(
 		'zh-tw' => '正體中文',	// IGNORE
 	),
 	'menu' => array(
-		'about' => 'FreshRSSについて',
+		'about' => 'FreshRSS について',
 		'account' => 'アカウント',
 		'admin' => '管理者',
 		'archiving' => 'アーカイブ',
