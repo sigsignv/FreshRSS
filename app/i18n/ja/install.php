@@ -23,8 +23,8 @@ return array(
 		'http' => 'HTTP (上級者向けのHTTPS)',
 		'none' => 'なし (危険)',
 		'password_form' => 'パスワード<br /><small>(fWeb-formログインメソッド)</small>',
-		'password_format' => '最低限7文字必要です',
-		'type' => '認証メソッド',
+		'password_format' => '少なくとも7文字必要',
+		'type' => '認証方法',
 	),
 	'bdd' => array(
 		'_' => 'データベース',
@@ -47,12 +47,12 @@ return array(
 			'ok' => 'キャッシュディレクトリの権限は正しく設定されています。',
 		),
 		'ctype' => array(
-			'nok' => '必要とされている文字タイプを確認するライブラリが見つかりませんでした。(php-ctype)',
-			'ok' => '必要とされている文字タイプを確認するライブラリが見つかりました。(ctype)',
+			'nok' => '文字タイプチェックに必要なライブラリ (php-ctype) が見つかりません。',
+			'ok' => '文字タイプチェックに必要なライブラリ (ctype) が見つかりました。',
 		),
 		'curl' => array(
-			'nok' => 'cURLライブラリが見つかりませんでした(php-curl package)',
-			'ok' => 'cURLライブラリが見つかりました。',
+			'nok' => 'cURL ライブラリ (php-curl package) が見つかりません。',
+			'ok' => 'cURL ライブラリが見つかりました。',
 		),
 		'data' => array(
 			'nok' => 'この <em>%1$s</em> ディレクトリの <em>%2$s</em> ユーザーのアクセス権限を確認してください。HTTPサーバーは編集権限を必要としています。',
@@ -75,12 +75,12 @@ return array(
 			'ok' => 'JSONをパースするライブラリはインストールされています。',
 		),
 		'mbstring' => array(
-			'nok' => 'mbstringライブラリが見つかりませんでした。',
-			'ok' => 'mbstringライブラリはインストールされています。',
+			'nok' => 'mbstring ライブラリが見つかりません。',
+			'ok' => 'mbstring ライブラリが見つかりました。',
 		),
 		'pcre' => array(
-			'nok' => '正規表現ライブラリが見つかりませんでした。 (php-pcre).',
-			'ok' => '正規表現ライブラリはインストールされています。 (PCRE).',
+			'nok' => '正規表現ライブラリ (php-pcre) が見つかりませんでした。',
+			'ok' => '正規表現ライブラリ (PCRE) が見つかりました。',
 		),
 		'pdo' => array(
 			'nok' => 'PD0あるいはサポートされているドライバーが見つかりませんでした。 (pdo_mysql, pdo_sqlite, pdo_pgsql).',
