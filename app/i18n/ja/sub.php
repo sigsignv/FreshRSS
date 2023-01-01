@@ -39,6 +39,7 @@ return array(
 		'accept_cookies' => 'クッキーを受け入れる',
 		'accept_cookies_help' => 'クッキーをこのサーバーから受け入れます(このリクエストだけにメモリへ保存されます)',
 		'add' => 'RSSフィードに追加する',
+		'add' => 'RSSフィードを追加する',
 		'advanced' => '高度な設定',
 		'archiving' => 'アーカイブ',
 		'auth' => array(
@@ -75,7 +76,7 @@ return array(
 		'kind' => array(
 			'_' => 'フィードソースの種類',
 			'html_xpath' => array(
-				'_' => 'HTML + XPath (ウェブスクレイピング)',
+				'_' => 'HTML + XPath (Web スクレイピング)',
 				'feed_title' => array(
 					'_' => 'フィードタイトル',
 					'help' => '例: <code>//タイトル</code>あるいは文字列定数: <code>"カスタムフィード"</code>',
@@ -115,7 +116,7 @@ return array(
 					'help' => 'オプションです。例: <code>descendant::div/@data-uri</code>',
 				),
 				'item_uri' => array(
-					'_' => '項目のリンク(URL)',
+					'_' => '項目のリンク (URL)',
 					'help' => '例: <code>descendant::a/@href</code>',
 				),
 				'relative' => 'XPath (関連する項目):',

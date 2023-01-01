@@ -18,7 +18,7 @@ return array(
 		),
 		'validation' => array(
 			'change_email' => 'メールアドレスは<a href="%s">プロフィールページ</a>で変更できます。',
-			'email_sent_to' => '<strong>%s</strong> にメールを送信しました。メールアドレスの有効性を確認するため指示に従ってください。',
+			'email_sent_to' => '<strong>%s</strong> にメールを送信しました。メールアドレスの有効性を確認するためメールの指示に従ってください。',
 			'feedback' => array(
 				'email_failed' => 'サーバーの設定に問題があるためメールの送信に失敗しました。',
 				'email_sent' => 'メールが送信されました。',
@@ -36,7 +36,7 @@ return array(
 		'email_need_validation' => array(
 			'body' => 'あなたは %s に登録しましたが、メールアドレスの有効性を確認する必要があります。次のリンクに従ってください:',
 			'title' => 'アカウントの有効性を確認してください',
-			'welcome' => 'ようこそ %s さん',
+			'welcome' => 'ようこそ %s さん。',
 		),
 	),
 	'password' => array(

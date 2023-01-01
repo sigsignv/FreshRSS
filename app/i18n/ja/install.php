@@ -12,9 +12,9 @@
 
 return array(
 	'action' => array(
-		'finish' => 'インストール作業を終わりにする',
-		'fix_errors_before' => '次のステップへ移る前にエラーを修正してください。',
-		'keep_install' => '前の設定を保持する',
+		'finish' => 'インストール作業を完了する',
+		'fix_errors_before' => '次のステップに移る前にエラーをすべて修正してください。',
+		'keep_install' => '以前の設定を維持する',
 		'next_step' => '次のステップへ進む',
 		'reinstall' => 'FreshRSS を再インストールする',
 	),
@@ -34,9 +34,9 @@ return array(
 			'ok' => 'データベース設定は保存されました。',
 		),
 		'host' => 'ホスト',
-		'password' => 'データベースパスワード',
-		'prefix' => 'テーブルプレフィックス',
-		'type' => 'データベースの型',
+		'password' => 'データベースのパスワード',
+		'prefix' => 'テーブルの接頭辞',
+		'type' => 'データベースの種類',
 		'username' => 'データベースのユーザー名',
 	),
 	'check' => array(
