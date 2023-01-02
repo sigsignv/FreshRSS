@@ -14,20 +14,20 @@ return array(
 	'auth' => array(
 		'allow_anonymous' => '匿名でデフォルトユーザー (%s) の記事を読むことを許可する',
 		'allow_anonymous_refresh' => '匿名で記事を更新することを許可する',
-		'api_enabled' => '<abbr>API</abbr> アクセスを許可する<small>(モバイルアプリが必要)</small>',
-		'form' => 'ウェブフォーム (JavaScriptが必要です)',
-		'http' => 'HTTP (上級者はHTTPSでも)',
+		'api_enabled' => '<abbr>API</abbr> アクセスを許可する<small>(モバイルアプリに必要)</small>',
+		'form' => 'Web フォーム (従来型、JavaScript が必要)',
+		'http' => 'HTTP 認証 (HTTPS を有効化した上級者向け)',
 		'none' => 'なし (危険)',
 		'title' => '認証',
 		'token' => '認証トークン',
 		'token_help' => 'ユーザーが承認無しで、RSSを出力できるようにします。:',
 		'type' => '認証方式',
-		'unsafe_autologin' => '危険な自動ログインを有効にします',
+		'unsafe_autologin' => '次の形式の自動ログイン（安全ではない）を許可する: ',
 	),
 	'check_install' => array(
 		'cache' => array(
-			'nok' => '<em>./data/cache</em>ディレクトリのパーミッションを確認してください。 HTTP serverは編集権限を必要としています。',
-			'ok' => 'キャッシュディレクトリのパーミッションは正しく設定されています。',
+			'nok' => '<em>./data/cache</em> ディレクトリのパーミッションを確認してください。書き込み権限が必要です。',
+			'ok' => 'キャッシュディレクトリのパーミッションは正常です。',
 		),
 		'categories' => array(
 			'nok' => 'カテゴリテーブルが適切に設定されていません。',
@@ -46,8 +46,8 @@ return array(
 			'ok' => 'cURL ライブラリが見つかりました。',
 		),
 		'data' => array(
-			'nok' => '<em>./data</em>ディレクトリのパーミッションを確認してください。 HTTP serverは編集パーミッションを必要としています。',
-			'ok' => 'ディレクトリのパーミッションは正しく設定されています。',
+			'nok' => '<em>./data</em> ディレクトリのパーミッションを確認してください。書き込み権限が必要です。',
+			'ok' => 'データディレクトリのパーミッションは正常です。',
 		),
 		'database' => 'データベースのインストール',
 		'dom' => array(
@@ -122,7 +122,7 @@ return array(
 		'no_configure_view' => 'この拡張機能は設定できません。',
 		'system' => array(
 			'_' => 'システム拡張機能',
-			'no_rights' => 'システムの拡張機能 (あなたは権限を所持していません',
+			'no_rights' => 'システム拡張機能 (必要な権限がありません)',
 		),
 		'title' => '拡張機能',
 		'update' => 'アップデート可能',

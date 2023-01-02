@@ -196,8 +196,8 @@ return array(
 	),
 	'tag' => array(
 		'name' => 'ラベル名',
-		'new_name' => '変更前',
-		'old_name' => '変更後',
+		'new_name' => '変更後',
+		'old_name' => '変更前',
 	),
 	'title' => array(
 		'_' => '購読管理',

@@ -19,12 +19,12 @@ return array(
 		'reinstall' => 'FreshRSS を再インストールする',
 	),
 	'auth' => array(
-		'form' => 'Webフォーム (Javascriptが必要です)',
-		'http' => 'HTTP (上級者向けのHTTPS)',
+		'form' => 'Web フォーム (従来型、JavaScript が必要)',
+		'http' => 'HTTP 認証 (HTTPS を有効化した上級者向け)',
 		'none' => 'なし (危険)',
 		'password_form' => 'パスワード<br /><small>(fWeb-formログインメソッド)</small>',
 		'password_format' => '少なくとも7文字必要',
-		'type' => '認証方法',
+		'type' => '認証方式',
 	),
 	'bdd' => array(
 		'_' => 'データベース',
